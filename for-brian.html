@@ -1,9 +1,27 @@
-<h1 id="webauth-tests">Webauth tests</h1>
-<pre><code>cd path/to/webauth</code></pre>
-<pre><code>TRAVIS=1 RAILS_ENV=test rake db:migrate</code></pre>
-<pre><code>rm .bundle/config</code></pre>
-<pre><code>TRAVIS=1 bundle install</code></pre>
-<pre><code>rm Guardfile</code></pre>
-<pre><code>TRAVIS=1 RAILS_ENV=test guard init rspec</code></pre>
-<pre><code>TRAVIS=1 RAILS_ENV=test guard</code></pre>
-<pre>Guard command line: <code>a</code> to run all tests</pre>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Dave Takahashi</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1 id="webauth-tests">Webauth tests</h1>
+    <pre><code>cd path/to/webauth</code></pre>
+    <pre><code>TRAVIS=1 RAILS_ENV=test rake db:migrate</code></pre>
+    <pre><code>rm .bundle/config</code></pre>
+    <pre><code>TRAVIS=1 bundle install</code></pre>
+    <pre><code>rm Guardfile</code></pre>
+    <pre><code>TRAVIS=1 RAILS_ENV=test guard init rspec</code></pre>
+    <pre><code>TRAVIS=1 RAILS_ENV=test guard</code></pre>
+    <pre>Guard command line: <code>a</code> to run all tests</pre>
+  </body>
+</html>
